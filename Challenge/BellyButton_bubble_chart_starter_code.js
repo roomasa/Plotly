@@ -85,9 +85,15 @@ function buildCharts(sample) {
     // Use Plotly to plot the data with the layout. 
 
     // 1. Create the trace for the bubble chart.
-    var bubbleData = [
+    var bubbleData = [trace
    
     ];
+
+    var trace={
+      x:[]
+      y:
+
+    }
 
     // 2. Create the layout for the bubble chart.
     var bubbleLayout = {
